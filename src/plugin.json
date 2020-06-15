@@ -1,0 +1,37 @@
+{
+  "type": "panel",
+  "name": "test_plugin",
+  "id": "aadi-test-plugin",
+  "info": {
+    "description": "This is my primary plugin test",
+    "author": {
+      "name": "AadiCool",
+      "url": "https://aadicool.pythonanywhere.com"
+    },
+    "keywords": [
+      "Hola",
+      "Hii"
+    ],
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://github.com/grafana/simple-react-panel"
+      },
+      {
+        "name": "License",
+        "url": "https://github.com/grafana/simple-react-panel/blob/master/LICENSE"
+      }
+    ],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaVersion": "6.3.x",
+    "plugins": []
+  }
+}
